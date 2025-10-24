@@ -84,3 +84,9 @@ function adicionarCarrinho(){
         console.warn('Elemento #numero-carrinho não encontrado')
     }
 }
+
+const element = document.getElementById('carouselExampleAutoplaying');
+const rect = element.getBoundingClientRect();
+const width = rect.width; // Get the width
+const height = rect.height; // Get the height
+console.log(`Width: ${width}px, Height: ${height}px`);
