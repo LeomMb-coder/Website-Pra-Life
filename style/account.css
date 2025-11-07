@@ -1,17 +1,36 @@
-.bg-custom-red {background-color: #ab3b46 !important;}
-.bg-custom-beige {background-color: #f8f4f0 !important;}
-.bg-custom-dark-red {background-color: #772c36 !important;}
-.bg-custom-dark-beige {background-color: #dfdbd7 !important;}
+.bg-custom-red {
+    background-color: #ab3b46 !important;
+}
 
-.text-custom-light-beige {color: #ebe2d7 !important; transition: background-color 0.3s ease;}
+.bg-custom-beige {
+    background-color: #f8f4f0 !important;
+}
 
-.border-custom-light-beige {border-color: #ebe2d7 !important;}
+.bg-custom-dark-red {
+    background-color: #772c36 !important;
+}
+
+.bg-custom-dark-beige {
+    background-color: #dfdbd7 !important;
+}
+
+.text-custom-light-beige {
+    color: white !important;
+    transition: background-color 0.3s ease;
+}
+
+.border-custom-light-beige {
+    border-color: white !important;
+}
 
 .unselectable {
     user-select: none;
-    -webkit-user-select: none; /* Safari/Chrome */
-    -moz-user-select: none;    /* Firefox */
-    -ms-user-select: none;     /* IE/Edge */
+    -webkit-user-select: none;
+    /* Safari/Chrome */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE/Edge */
 }
 
 .form-check-input {
@@ -25,4 +44,20 @@ a {
 
 a:hover {
     color: #ebebeb !important;
+}
+
+body {
+    background-color: #ab3b46 !important;
+}
+
+.card {
+    border: 0px !important;
+}
+
+svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
 }

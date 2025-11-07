@@ -3,10 +3,10 @@
 .bg-custom-dark-red {background-color: #772c36 !important;}
 .bg-custom-dark-beige {background-color: #dfdbd7 !important;}
 
-.text-custom-light-beige {color: #ebe2d7 !important; transition: background-color 0.3s ease;}
+.text-custom-light-beige {color: white !important; transition: background-color 0.3s ease;}
 .text-custom-light-beige:hover {color: #bab7b6 !important;}
 
-.text-custom-light-beige-no-hover {color: #ebe2d7 !important;}
+.text-custom-light-beige-no-hover {color: white !important;}
 .text-custom-dark-red-no-hover {color: #772c36 !important;}
 
 .font-size-custom-medium {font-size: medium;}
