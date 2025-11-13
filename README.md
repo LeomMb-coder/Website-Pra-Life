@@ -34,26 +34,6 @@ Como este é um projeto de frontend estático, não são necessários passos esp
     ```
 3.  Abra o arquivo `index.html` no seu navegador para iniciar o site.
 
-## Estrutura do Projeto
-
-/
-├── index.html                # Homepage and main product listing
-├── account/
-│   ├── login.html            # User login page
-│   ├── register.html         # New user registration page
-│   └── senha.html            # Password recovery page
-├── html/
-│   └── sobre.html            # "About Us" page
-├── script/
-│   ├── index.js              # Handles homepage UI updates, login status, and cart counter
-│   ├── login.js              # Manages user login logic against localStorage
-│   ├── register.js           # Handles new user registration and data storage
-│   └── senha.js              # Intended for password change logic (currently empty)
-└── style/
-    ├── account.css           # Custom styles for the account pages (login, register)
-    └── index.css             # Main stylesheet for the site
-
-
 ## Detalhes de Funcionalidade
 
 ### Autenticação
